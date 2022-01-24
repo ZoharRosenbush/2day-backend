@@ -1,0 +1,327 @@
+{
+  "cmpsOrder" : [ 
+      "status-picker", 
+      "date-picker", 
+      "member-picker", 
+      "priority-picker", 
+      "text", 
+      "cost", 
+      "type-picker", 
+      "role-picker"
+  ],
+  "title" : "Sprint 5 !",
+  "description" : "This board is for managing a single project. You can customize this board to suit your project needs: add columns, subtasks, automations, dashboards and more!",
+  "createdBy" : {
+      "_id" : "61edc3e7652f5891aac4c063",
+      "acronyms" : "AL",
+      "fullname" : "Ann Lee",
+      "username" : "Ann Lee",
+      "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg"
+  },
+  "lastSeen" : [ 
+      {
+          "_id" : "61edc3e7652f5891aac4c063",
+          "acronyms" : "AL",
+          "fullname" : "Ann Lee",
+          "username" : "Ann Lee",
+          "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg"
+      }, 
+      {
+          "_id" : "61edc551652f5891aac5830c",
+          "acronyms" : "HG",
+          "fullname" : "Henry Gold",
+          "username" : "Henry Gold",
+          "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg"
+      }, 
+      {
+          "_id" : "61edc3c5652f5891aac4aed6",
+          "acronyms" : "LT",
+          "fullname" : "Lora Turner",
+          "username" : "Lora Turner",
+          "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg"
+      }
+  ],
+  "statuses" : [ 
+      {
+          "id" : "la123",
+          "value" : "Empty",
+          "bgColor" : "#c4c4c4",
+          "color" : "#c4c4c4"
+      }, 
+      {
+          "id" : "la555",
+          "value" : "Done",
+          "bgColor" : "#00C875",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "la666",
+          "value" : "Stuck",
+          "bgColor" : "#E2445C",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "la777",
+          "value" : "Working on it",
+          "bgColor" : "#ffcb00",
+          "color" : "#fff"
+      }
+  ],
+  "priorities" : [ 
+      {
+          "id" : "lb111",
+          "value" : "Empty",
+          "bgColor" : "#c4c4c4",
+          "color" : " #c4c4c4"
+      }, 
+      {
+          "id" : "lb222",
+          "value" : "Low",
+          "bgColor" : "#66ccff",
+          "color" : " #fff"
+      }, 
+      {
+          "id" : "lb333",
+          "value" : "Medium",
+          "bgColor" : "#0086c0",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "lb444",
+          "value" : "High",
+          "bgColor" : "#225091",
+          "color" : "#fff"
+      }
+  ],
+  "members" : [ 
+      {
+          "_id" : "61edc3e7652f5891aac4c063",
+          "acronyms" : "AL",
+          "fullname" : "Ann Lee",
+          "username" : "Ann Lee",
+          "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg"
+      }, 
+      {
+          "_id" : "61edc551652f5891aac5830c",
+          "acronyms" : "HG",
+          "fullname" : "Henry Gold",
+          "username" : "Henry Gold",
+          "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg"
+      }, 
+      {
+          "_id" : "61edc3c5652f5891aac4aed6",
+          "acronyms" : "LT",
+          "fullname" : "Lora Turner",
+          "username" : "Lora Turner",
+          "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg"
+      }
+  ],
+  "types" : [ 
+      {
+          "id" : "tp111",
+          "value" : "Empty",
+          "bgColor" : "#c4c4c4",
+          "color" : "#c4c4c4"
+      }, 
+      {
+          "id" : "tp222",
+          "value" : "Quality",
+          "bgColor" : "#fcc4f7",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "tp333",
+          "value" : "Feature",
+          "bgColor" : "#00c875",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "tp444",
+          "value" : "Bug",
+          "bgColor" : "#e2445c",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "tp555",
+          "value" : "Improvement",
+          "bgColor" : "#a25ddc",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "tp666",
+          "value" : "Security",
+          "bgColor" : "#ffadad",
+          "color" : "#fff"
+      }
+  ],
+  "roles" : [ 
+      {
+          "id" : "rl111",
+          "value" : "Empty",
+          "bgColor" : "#c4c4c4",
+          "color" : "#c4c4c4"
+      }, 
+      {
+          "id" : "rl222",
+          "value" : "Dev",
+          "bgColor" : "#279165",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "rl333",
+          "value" : "Design",
+          "bgColor" : "#0086c0",
+          "color" : "#fff"
+      }, 
+      {
+          "id" : "rl444",
+          "value" : "Product",
+          "bgColor" : "#a25ddc",
+          "color" : "#fff"
+      }
+  ],
+  "groups" : [ 
+      {
+          "id" : "p101",
+          "title" : "Kick off",
+          "tasks" : [ 
+              {
+                  "id" : "w101",
+                  "title" : "Create demo data",
+                  "status" : "Done",
+                  "priority" : "High",
+                  "role" : "Dev",
+                  "text" : "hello",
+                  "cost" : 45,
+                  "type" : "Security",
+                  "activities" : [ 
+                      {
+                          "txt" : "Changed task status to Stuck",
+                          "createdAt" : 1643038475481,
+                          "id" : "JHLV",
+                          "byMember" : {
+                              "fullname" : "Lora Turner",
+                              "username" : "Lora Turner",
+                              "_id" : "61edc3c5652f5891aac4aed6",
+                              "acronyms" : "LT",
+                              "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg"
+                          }
+                      }
+                  ],
+                  "timeline" : [ 
+                      "2022-01-25T22:00:00.000Z", 
+                      "2022-01-27T22:00:00.000Z"
+                  ],
+                  "owner" : [ 
+                      {
+                          "fullname" : "Henry Gold",
+                          "acronyms" : "HG",
+                          "_id" : "61edc551652f5891aac5830c",
+                          "username" : "Henry Gold",
+                          "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg"
+                      }, 
+                      {
+                          "fullname" : "Ann Lee",
+                          "_id" : "61edc3e7652f5891aac4c063",
+                          "acronyms" : "AL",
+                          "username" : "Ann Lee",
+                          "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg"
+                      }
+                  ],
+                  "comments" : [ 
+                      {
+                          "id" : "Zdrnm",
+                          "txt" : "Update timeline as soon as we get the deadline  ",
+                          "createdAt" : 1643038475481,
+                          "byMember" : {
+                              "fullname" : "Lora Turner",
+                              "username" : "Lora Turner",
+                              "_id" : "61edc3c5652f5891aac4aed6",
+                              "acronyms" : "LT",
+                              "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg"
+                          }
+                      }
+                  ]
+              }, 
+              {
+                  "id" : "c101",
+                  "title" : "Upload to Heroku",
+                  "status" : "Stuck",
+                  "priority" : "High",
+                  "role" : "Product",
+                  "text" : "hello",
+                  "cost" : 60,
+                  "type" : "Quality",
+                  "owner" : [ 
+                      {
+                          "_id" : "61edc551652f5891aac5830c",
+                          "acronyms" : "HG",
+                          "fullname" : "Henry Gold",
+                          "username" : "Henry Gold",
+                          "imgUrl" : "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                      }
+                  ],
+                  "timeline" : [ 
+                      "2022-01-25T22:00:00.000Z", 
+                      "2022-01-27T22:00:00.000Z"
+                  ],
+                  "activities" : [ 
+                      {
+                          "txt" : "Changed task status to Stuck",
+                          "createdAt" : 1643038475481,
+                          "id" : "1D8T",
+                          "byMember" : {
+                              "fullname" : "Lora Turner",
+                              "username" : "Lora Turner",
+                              "_id" : "61edc3c5652f5891aac4aed6",
+                              "acronyms" : "LT",
+                              "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg"
+                          }
+                      }
+                  ],
+                  "comments" : [ 
+                      {
+                          "id" : "ZdPkm",
+                          "txt" : "After upload, please send the link to Asaf.",
+                          "createdAt" : 1643038475481,
+                          "byMember" : {
+                              "fullname" : "Henry Gold",
+                              "acronyms" : "HG",
+                              "_id" : "61edc551652f5891aac5830c",
+                              "username" : "Henry Gold",
+                              "imgUrl" : "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg"
+                          }
+                      }
+                  ]
+              }, 
+              {
+                  "id" : "Z2gt",
+                  "title" : "Finish setting up the server",
+                  "status" : "Empty",
+                  "text" : "",
+                  "cost" : "Empty",
+                  "priority" : "Empty",
+                  "role" : "Empty",
+                  "type" : "Empty",
+                  "timeline" : [ 
+                    "2022-01-25T22:00:00.000Z", 
+                    "2022-01-27T22:00:00.000Z"
+                ],
+                  "owner" : [ 
+                      {
+                          "_id" : "61edc551652f5891aac5830c",
+                          "acronyms" : "HG",
+                          "fullname" : "Henry Gold",
+                          "username" : "Henry Gold",
+                          "imgUrl" : "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                      }
+                  ],
+                  "comments" : []
+              }
+          ],
+          "style" : {
+              "groupColor" : "#a25ddc"
+          }
+      }
+  ]
+}
