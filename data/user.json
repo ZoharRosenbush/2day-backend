@@ -1,0 +1,44 @@
+[
+    {
+        "fullname":"Lee Segal",
+        "username":"Leekush",
+        "isAdmin": true,
+        "password":1234
+    },
+    {
+        "fullname":"May Elgrat",
+        "username":"Mayish",
+        "isAdmin": false,
+        "password":5678
+    },
+    {
+        "fullname":"Zohar Rosenbush",
+        "username":"Zoz",
+        "isAdmin": false,
+        "password":9999
+    },
+    {
+        "fullname":"Lora Turner",
+        "username":"Lora Turner",
+        "_id": "u1099",
+        "acronyms": "LT",
+        "password":9999,
+        "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968384/Lora_Turner_gqzvpz.jpg"
+    },
+    {
+        "fullname":"Ann Lee",
+        "_id": "u101",
+        "acronyms": "AL",
+        "username":"Ann Lee",
+        "password":9999,
+        "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968393/Ann_Lee_e6tybh.jpg"
+    },
+    {
+        "fullname":"Henry Gold",
+        "acronyms": "HG",
+        "_id": "u108",
+        "username":"Henry Gold",
+        "password":9999,
+        "imgUrl": "https://res.cloudinary.com/dejo279fn/image/upload/v1642968389/Henry_Gold_kf3jfz.jpg"
+    }
+]
