@@ -42,10 +42,10 @@ async function query(filterBy = null) {
 async function getById(boardId) {
     try {
         const collection = await dbService.getCollection('board')
-        console.log('board id in service',boardId);
+        // console.log('board id in service',boardId);
         const board = await collection.findOne({ '_id': ObjectId(boardId) })
         // board.reviews = await reviewService.query({ boardId })
-        console.log('the board in service', board)
+        // console.log('the board in service', board)
         return board
     } catch (err) {
         logger.error(`while finding board ${boardId}`, err)

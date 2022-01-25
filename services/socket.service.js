@@ -11,10 +11,7 @@ function connectSockets(http, session) {
         socket.on('disconnect', socket => {
             console.log('Someone disconnected')
         })
-        socket.on('set-user-socket', userId => {
-            // console.log('the user id in server',userId)
-            socket.userId = userId
-        })
+      
         socket.on('join board-room', boardId => {
             console.log('joining room!', boardId)
             if (socket.boardRoom === boardId) return;
@@ -25,22 +22,23 @@ function connectSockets(http, session) {
             socket.join(boardId)
             socket.boardRoom = boardId
         })
-        socket.on('chat newMsg', msg => {
-            console.log('Emitting Chat msg', msg);
+        socket.on('member updated board', boardId => {
+            console.log('Emitting board update', boardId);
             // emits to all sockets:
             // gIo.emit('chat addMsg', msg)
             // emits only to sockets in the same room
             console.log('socket room', socket.boardRoom);
-            gIo.to(socket.boardRoom).emit('chat addMsg', msg)
+            socket.to(socket.boardRoom).emit('board was updated', boardId)
+            // gIo.to(socket.boardRoom).emit('chat addMsg', msg)
         })
-        socket.on('user typing', ({userId, room}) => {
-            console.log('brodcasting from', userId, 'to', room)
-            broadcast({ type: 'other user typing', data: true, room, userId })
-        })
-        socket.on('no user typing', ({userId, room}) => {
-            console.log('brodcasting from', userId, 'to', room)
-            broadcast({ type: 'no typers', data: false, room, userId })
-        })
+        // socket.on('user typing', ({userId, room}) => {
+        //     console.log('brodcasting from', userId, 'to', room)
+        //     broadcast({ type: 'other user typing', data: true, room, userId })
+        // })
+        // socket.on('no user typing', ({userId, room}) => {
+        //     console.log('brodcasting from', userId, 'to', room)
+        //     broadcast({ type: 'no typers', data: false, room, userId })
+        // })
     })
 }
 
