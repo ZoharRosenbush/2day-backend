@@ -23,7 +23,7 @@ async function getBoards(req, res) {
 async function getBoardById(req, res) {
   try {
     const boardId = req.params.id;
-    console.log('board id in controller',boardId);
+    console.log('board id in controller', boardId);
     const board = await boardService.getById(boardId)
     res.json(board)
   } catch (err) {
@@ -70,10 +70,49 @@ async function removeBoard(req, res) {
   }
 }
 
+async function updateBoardGroup(req, res) {
+  console.log(req.params.id);
+  // const boardId = req.params.id;
+  // console.log('the board id in server add',boardId)
+  // const board = await boardService.getById(boardId)
+  const groupToSave = req.body;
+
+  const groupIdx = board.groups.findIndex(
+    (group) => groupToSave.id === group.id
+  );
+  console.log('the groupIdx', groupIdx);
+
+  if (groupIdx === -1) {
+    board.groups.unshift(newGroup);
+  } else {
+    board.groups[groupIdx] = groupToSave;
+  }
+  console.log('the board to save in server', board)
+  await boardService.update(board)
+  return groupToSave
+}
+
+async function removeBoardGroup(req, res) {
+  const boardId = req.params.id;
+  const groupId = req.params.groupId
+  const board = await boardService.getById(boardId)
+
+  const filteredGroups = board.groups.filter((group) => {
+    return group.id !== groupId;
+  });
+  board.groups = filteredGroups
+
+  await boardService.update(board)
+  return groupId
+}
+
+
 module.exports = {
   getBoards,
   getBoardById,
   addBoard,
   updateBoard,
-  removeBoard
+  removeBoard,
+  updateBoardGroup,
+  removeBoardGroup
 }

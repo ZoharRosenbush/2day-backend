@@ -31,14 +31,6 @@ function connectSockets(http, session) {
             socket.to(socket.boardRoom).emit('board was updated', boardId)
             // gIo.to(socket.boardRoom).emit('chat addMsg', msg)
         })
-        // socket.on('user typing', ({userId, room}) => {
-        //     console.log('brodcasting from', userId, 'to', room)
-        //     broadcast({ type: 'other user typing', data: true, room, userId })
-        // })
-        // socket.on('no user typing', ({userId, room}) => {
-        //     console.log('brodcasting from', userId, 'to', room)
-        //     broadcast({ type: 'no typers', data: false, room, userId })
-        // })
     })
 }
 
