@@ -23,7 +23,21 @@ async function signup(username, password, fullname) {
     if (!username || !password || !fullname) return Promise.reject('fullname, username and password are required!')
 
     const hash = await bcrypt.hash(password, saltRounds)
-    return userService.add({ username, password: hash, fullname })
+    return userService.add({ username, password: hash, fullname, userColor: getNiceRandomColor() })
+}
+
+function getNiceRandomColor() {
+    let red = "#E2445C";
+    let orange = "#FDAB3D";
+    let green = "#00C875";
+    let blue = "#0073ea";
+    let pink = "#FAA1F1";
+    let darkblue = "#292f4c";
+
+    let niceColors = [darkblue, pink, blue, green, orange, red];
+    let drawnNum = _getRandomIntInclusive(0, niceColors.length - 1);
+    let randColor = niceColors[drawnNum];
+    return randColor;
 }
 
 module.exports = {
