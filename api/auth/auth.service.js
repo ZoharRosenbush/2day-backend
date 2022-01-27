@@ -21,7 +21,6 @@ async function signup(username, password, fullname) {
 
     logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
     if (!username || !password || !fullname) return Promise.reject('fullname, username and password are required!')
-
     const hash = await bcrypt.hash(password, saltRounds)
     return userService.add({ username, password: hash, fullname, userColor: getNiceRandomColor() })
 }
@@ -38,6 +37,12 @@ function getNiceRandomColor() {
     let drawnNum = _getRandomIntInclusive(0, niceColors.length - 1);
     let randColor = niceColors[drawnNum];
     return randColor;
+}
+
+function _getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive
 }
 
 module.exports = {

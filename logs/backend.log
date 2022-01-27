@@ -353,3 +353,10 @@
 26.1.2022, 10:15:27 - INFO - Server is running on port: 3030
 26.1.2022, 10:15:34 - INFO - Server is running on port: 3030
 >>>>>>> 5bd0c2f3ac13ad6ed1fc9fc75a7f8dbfb8e91b26
+1/27/2022, 1:47:19 PM - INFO - Server is running on port: 3030
+1/27/2022, 2:17:07 PM - DEBUG - auth.service - signup with username: zozo, fullname: Zohar Ro
+1/27/2022, 2:17:08 PM - ERROR - Failed to signup ReferenceError: _getRandomIntInclusive is not defined
+1/27/2022, 2:31:36 PM - INFO - Server is running on port: 3030
+1/27/2022, 2:33:00 PM - DEBUG - auth.service - signup with username: zoz, fullname: Zohar Ro
+1/27/2022, 2:33:02 PM - DEBUG - auth.route - new account created: {"username":"zoz","password":"$2b$10$LFLvBrzCnH/wD.YbjzJUqO7E7chLzrHnoOt8SYkA1iG4gD8V/9P/e","fullname":"Zohar Ro","isAdmin":false,"_id":"61f290feee53eed1bbe2c7c9"}
+1/27/2022, 2:33:02 PM - DEBUG - auth.service - login with username: zoz
