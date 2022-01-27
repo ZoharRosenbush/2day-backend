@@ -302,6 +302,18 @@
 1/24/2022, 5:52:02 PM - INFO - Server is running on port: 3030
 1/24/2022, 6:01:57 PM - INFO - Server is running on port: 3030
 1/24/2022, 6:12:47 PM - INFO - Server is running on port: 3030
+<<<<<<< HEAD
+24.1.2022, 19:14:43 - INFO - Server is running on port: 3030
+24.1.2022, 22:09:51 - INFO - Server is running on port: 3030
+24.1.2022, 22:28:41 - INFO - Server is running on port: 3030
+25.1.2022, 9:31:10 - INFO - Server is running on port: 3030
+25.1.2022, 17:43:26 - INFO - Server is running on port: 3030
+25.1.2022, 17:45:22 - INFO - Server is running on port: 3030
+25.1.2022, 23:44:52 - DEBUG - auth.service - login with username: mayelgarat
+25.1.2022, 23:44:52 - ERROR - Failed to Login Invalid username or password
+25.1.2022, 23:44:54 - DEBUG - auth.service - login with username: mayelgarat
+25.1.2022, 23:44:54 - ERROR - Failed to Login Invalid username or password
+=======
 1/24/2022, 8:53:49 PM - INFO - Server is running on port: 3030
 1/24/2022, 10:09:21 PM - INFO - Server is running on port: 3030
 1/25/2022, 8:46:28 AM - INFO - Server is running on port: 3030
@@ -326,9 +338,18 @@
 1/25/2022, 9:34:33 PM - INFO - Server is running on port: 3030
 1/25/2022, 9:34:42 PM - ERROR - while finding board [object Object] | {}
 1/25/2022, 9:35:15 PM - INFO - Server is running on port: 3030
+<<<<<<< HEAD
 1/26/2022, 11:01:09 AM - INFO - Server is running on port: 3030
 1/26/2022, 1:09:14 PM - INFO - Server is running on port: 3030
 1/26/2022, 5:53:24 PM - INFO - Server is running on port: 3030
 1/26/2022, 5:57:39 PM - INFO - Server is running on port: 3030
 1/26/2022, 7:52:16 PM - INFO - Server is running on port: 3030
 1/27/2022, 9:50:25 AM - INFO - Server is running on port: 3030
+=======
+>>>>>>> 1ac44d2a4a2147081b2f4dd82a9c1913cb6c9760
+26.1.2022, 9:36:12 - INFO - Server is running on port: 3030
+26.1.2022, 9:42:38 - INFO - Server is running on port: 3030
+26.1.2022, 9:47:50 - INFO - Server is running on port: 3030
+26.1.2022, 10:15:27 - INFO - Server is running on port: 3030
+26.1.2022, 10:15:34 - INFO - Server is running on port: 3030
+>>>>>>> 5bd0c2f3ac13ad6ed1fc9fc75a7f8dbfb8e91b26
