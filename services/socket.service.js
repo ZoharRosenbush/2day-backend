@@ -11,7 +11,7 @@ function connectSockets(http, session) {
         socket.on('disconnect', socket => {
             console.log('Someone disconnected')
         })
-      
+
         socket.on('join board-room', boardId => {
             console.log('joining room!', boardId)
             if (socket.boardRoom === boardId) return;
@@ -29,6 +29,15 @@ function connectSockets(http, session) {
             // emits only to sockets in the same room
             console.log('socket room', socket.boardRoom);
             socket.to(socket.boardRoom).emit('board was updated', boardId)
+            // gIo.to(socket.boardRoom).emit('chat addMsg', msg)
+        })
+        socket.on('member updated board-list', () => {
+            // emits to all sockets:
+            // gIo.emit('chat addMsg', msg)
+            // emits only to sockets in the same room
+            console.log('socketID',socket.id);
+            console.log('updating board list!!!')
+            socket.broadcast.emit('board-list was updated')
             // gIo.to(socket.boardRoom).emit('chat addMsg', msg)
         })
     })
