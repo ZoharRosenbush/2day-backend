@@ -90,6 +90,7 @@ async function add(user) {
         const userToAdd = {
             username: user.username,
             password: user.password,
+            userColor:user.userColor,
             fullname: user.fullname,
             isAdmin:false
         }
