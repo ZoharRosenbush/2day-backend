@@ -391,3 +391,4 @@
 1/28/2022, 5:51:22 PM - DEBUG - auth.route - new account created: {"username":"a","password":"$2b$10$udpS1JCdnXi4sqMP0c/P7e.bBquP2EGncuNkRqCRI/rRDialHjdfW","fullname":"aaaaa bbbb","isAdmin":false,"_id":"61f410f9837e510a523369e8"}
 1/28/2022, 5:51:22 PM - DEBUG - auth.service - login with username: a
 1/29/2022, 11:40:27 AM - INFO - Server is running on port: 3030
+1/29/2022, 5:38:17 PM - INFO - Server is running on port: 3030
