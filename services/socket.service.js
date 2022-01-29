@@ -23,11 +23,11 @@ function connectSockets(http, session) {
             socket.boardRoom = boardId
         })
         socket.on('member updated board', boardId => {
-            console.log('Emitting board update', boardId);
+            // console.log('Emitting board update', boardId);
             // emits to all sockets:
             // gIo.emit('chat addMsg', msg)
             // emits only to sockets in the same room
-            console.log('socket room', socket.boardRoom);
+            // console.log('socket room', socket.boardRoom);
             socket.to(socket.boardRoom).emit('board was updated', boardId)
             // gIo.to(socket.boardRoom).emit('chat addMsg', msg)
         })

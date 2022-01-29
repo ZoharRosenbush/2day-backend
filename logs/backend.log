@@ -360,3 +360,34 @@
 1/27/2022, 2:33:00 PM - DEBUG - auth.service - signup with username: zoz, fullname: Zohar Ro
 1/27/2022, 2:33:02 PM - DEBUG - auth.route - new account created: {"username":"zoz","password":"$2b$10$LFLvBrzCnH/wD.YbjzJUqO7E7chLzrHnoOt8SYkA1iG4gD8V/9P/e","fullname":"Zohar Ro","isAdmin":false,"_id":"61f290feee53eed1bbe2c7c9"}
 1/27/2022, 2:33:02 PM - DEBUG - auth.service - login with username: zoz
+1/27/2022, 2:48:18 PM - INFO - Server is running on port: 3030
+1/27/2022, 4:11:20 PM - DEBUG - auth.service - signup with username: 12, fullname: zohar ro
+1/27/2022, 4:11:20 PM - DEBUG - auth.route - new account created: {"username":"12","password":"$2b$10$gMtzIoNUJ3kWl5tXCQa.f.ErAvnh4AcO5XRUeZdmEz1LIrU6zdsr2","fullname":"zohar ro","isAdmin":false,"_id":"61f2a8080f2c7cd450740989"}
+1/27/2022, 4:11:20 PM - DEBUG - auth.service - login with username: 12
+1/28/2022, 7:26:11 AM - INFO - Server is running on port: 3030
+1/28/2022, 8:55:00 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:02:32 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:04:02 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:06:33 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:15:59 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:18:43 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:27:36 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:33:10 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:36:26 AM - INFO - Server is running on port: 3030
+1/28/2022, 9:43:00 AM - INFO - Server is running on port: 3030
+1/28/2022, 10:05:09 AM - INFO - Server is running on port: 3030
+1/28/2022, 10:23:05 AM - INFO - Server is running on port: 3030
+1/28/2022, 11:43:42 AM - DEBUG - auth.service - signup with username: adsd, fullname: aaaa bbbb
+1/28/2022, 11:43:42 AM - DEBUG - auth.route - new account created: {"username":"adsd","password":"$2b$10$HeAGCD6gFzx0frEX0.P1veWBMoOJph/TzTZeMbmhRlbAhF3OvcPfi","fullname":"aaaa bbbb","isAdmin":false,"_id":"61f3bace2b526cf0cd18632f"}
+1/28/2022, 11:43:42 AM - DEBUG - auth.service - login with username: adsd
+1/28/2022, 12:45:49 PM - INFO - Server is running on port: 3030
+1/28/2022, 1:15:52 PM - INFO - Server is running on port: 3030
+1/28/2022, 1:17:13 PM - INFO - Server is running on port: 3030
+1/28/2022, 1:21:48 PM - INFO - Server is running on port: 3030
+1/28/2022, 1:25:59 PM - INFO - Server is running on port: 3030
+1/28/2022, 4:13:17 PM - INFO - Server is running on port: 3030
+1/28/2022, 5:26:36 PM - INFO - Server is running on port: 3030
+1/28/2022, 5:51:21 PM - DEBUG - auth.service - signup with username: a, fullname: aaaaa bbbb
+1/28/2022, 5:51:22 PM - DEBUG - auth.route - new account created: {"username":"a","password":"$2b$10$udpS1JCdnXi4sqMP0c/P7e.bBquP2EGncuNkRqCRI/rRDialHjdfW","fullname":"aaaaa bbbb","isAdmin":false,"_id":"61f410f9837e510a523369e8"}
+1/28/2022, 5:51:22 PM - DEBUG - auth.service - login with username: a
+1/29/2022, 11:40:27 AM - INFO - Server is running on port: 3030
