@@ -397,3 +397,34 @@
 1/29/2022, 8:25:25 PM - DEBUG - auth.service - signup with username: aa, fullname: aa bb
 1/29/2022, 8:25:25 PM - DEBUG - auth.route - new account created: {"username":"aa","password":"$2b$10$QUawrAG.0pVu.dr9HFV9eeZWjnm0zGXOiaVHbwSr6TPUIiU0A3IpK","userColor":"#FAA1F1","fullname":"aa bb","isAdmin":false,"_id":"61f586957469f83395ef110d"}
 1/29/2022, 8:25:25 PM - DEBUG - auth.service - login with username: aa
+1/29/2022, 10:40:17 PM - INFO - Server is running on port: 3030
+1/30/2022, 8:49:47 AM - INFO - Server is running on port: 3030
+1/30/2022, 9:46:11 AM - INFO - Server is running on port: 3030
+1/30/2022, 10:04:41 AM - DEBUG - auth.service - signup with username: Aloni, fullname: Alon Dai
+1/30/2022, 10:04:42 AM - DEBUG - auth.route - new account created: {"username":"Aloni","password":"$2b$10$JgEOsQzN6ULmGat04voNSeOKPrWLf36VaaVMhWIwK9OfiCEawRDN6","userColor":"#00C875","fullname":"Alon Dai","isAdmin":false,"_id":"61f6469ab00af7481f5e04fe"}
+1/30/2022, 10:04:42 AM - DEBUG - auth.service - login with username: Aloni
+1/30/2022, 7:29:38 PM - DEBUG - auth.service - signup with username: LEE, fullname: LEEEE SEGALL
+1/30/2022, 7:29:39 PM - DEBUG - auth.route - new account created: {"username":"LEE","password":"$2b$10$Ydc53K/d9gBeHo1.QPciPeId.e4tMR1MiQKV36fvBVbtXly5JasIm","userColor":"#FDAB3D","fullname":"LEEEE SEGALL","isAdmin":false,"_id":"61f6cb03b00af7481f5e04ff"}
+1/30/2022, 7:29:39 PM - DEBUG - auth.service - login with username: LEE
+1/30/2022, 7:39:14 PM - DEBUG - auth.service - signup with username: aaa , fullname: JJJ PPP
+1/30/2022, 7:39:15 PM - DEBUG - auth.route - new account created: {"username":"aaa ","password":"$2b$10$E2KNYRtkyF8kULehHQVxFeXHWKFEUMHob2X/EWsXUvjF9kuU/RKvm","userColor":"#FDAB3D","fullname":"JJJ PPP","isAdmin":false,"_id":"61f6cd43b00af7481f5e0500"}
+1/30/2022, 7:39:15 PM - DEBUG - auth.service - login with username: aaa 
+1/30/2022, 7:44:56 PM - INFO - Server is running on port: 3030
+1/30/2022, 7:57:46 PM - DEBUG - auth.service - signup with username: As, fullname: Asaf Margalit
+1/30/2022, 7:57:47 PM - DEBUG - auth.route - new account created: {"username":"As","password":"$2b$10$0EMV3rtFQ/F/664eWA.42.JVMD1IhDH70tCkC0pikY/OG5lY.MRJC","userColor":"#0073ea","fullname":"Asaf Margalit","isAdmin":false,"_id":"61f6d19beded646a71bda34f"}
+1/30/2022, 7:57:47 PM - DEBUG - auth.service - login with username: As
+1/30/2022, 7:58:25 PM - DEBUG - auth.service - login with username: As
+1/30/2022, 8:20:39 PM - INFO - Server is running on port: 3030
+1/30/2022, 8:20:48 PM - INFO - Server is running on port: 3030
+1/30/2022, 8:21:39 PM - DEBUG - auth.service - signup with username: Tommy, fullname: Tommy Iramia
+1/30/2022, 8:21:40 PM - DEBUG - auth.route - new account created: {"username":"Tommy","password":"$2b$10$objelwcKWVH7jzKrlxwR5uBhS/ybrtCJIs9mIat7OdxpzxV0IQd4O","fullname":"Tommy Iramia","userColor":"#0073ea","acronyms":"TI","_id":"61f6d7333689d16d14633a3f"}
+1/30/2022, 8:21:40 PM - DEBUG - auth.service - login with username: Tommy
+1/30/2022, 8:22:07 PM - INFO - Server is running on port: 3030
+1/30/2022, 8:22:32 PM - DEBUG - auth.service - signup with username: Guy, fullname: Guy Kaplan
+1/30/2022, 8:22:35 PM - DEBUG - auth.route - new account created: {"username":"Guy","password":"$2b$10$HHLF3D8WlYGzTCh7fn.DaeOL/zYMTM/6SscL1pNJVZBAqDK4bVyK6","fullname":"Guy Kaplan","userColor":"#292f4c","acronyms":"GK","_id":"61f6d76bc8711e6d4f2fc955"}
+1/30/2022, 8:22:35 PM - DEBUG - auth.service - login with username: Guy
+1/30/2022, 8:26:48 PM - INFO - Server is running on port: 3030
+1/30/2022, 8:27:06 PM - DEBUG - auth.service - signup with username: Anna, fullname: Anna Bla
+1/30/2022, 8:27:07 PM - DEBUG - auth.route - new account created: {"username":"Anna","password":"$2b$10$6YNXY8ffYp5uQImVlYhQh.YvIcWugKY0ivWN6.czIUyLKTmsLr4qa","fullname":"Anna Bla","userColor":"#292f4c","acronyms":"AB","_id":"61f6d87b8d515c6dd769d870"}
+1/30/2022, 8:27:07 PM - DEBUG - auth.service - login with username: Anna
+1/30/2022, 8:29:40 PM - DEBUG - auth.service - login with username: Anna

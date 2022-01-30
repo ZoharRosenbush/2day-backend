@@ -45,7 +45,6 @@ async function getById(userId) {
 }
 
 async function getByUsername(username) {
-    console.log('the username 🌝',username);
     try {
         const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ username })
@@ -87,16 +86,9 @@ async function update(user) {
 async function add(user) {
     try {
         // peek only updatable fields!
-        const userToAdd = {
-            username: user.username,
-            password: user.password,
-            userColor:user.userColor,
-            fullname: user.fullname,
-            isAdmin:false
-        }
         const collection = await dbService.getCollection('user')
-        await collection.insertOne(userToAdd)
-        return userToAdd
+        await collection.insertOne(user)
+        return user
     } catch (err) {
         logger.error('cannot insert user', err)
         throw err

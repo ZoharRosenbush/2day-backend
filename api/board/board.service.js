@@ -5,24 +5,10 @@ const ObjectId = require('mongodb').ObjectId
 
 
 async function query(filterBy = null) {
-    console.log('the filter in service', filterBy)
     try {
-        // const criteria = _buildCriteria(filterBy)
+        
         const criteria = {}
-        // if (filterBy.name) {
-        //     const regex = new RegExp(filterBy.name, 'i')
-        //     criteria.name = { $regex: regex }
-        // }
-        // if (filterBy.labels.length) {
-        //     criteria.labels = { $in: filterBy.labels }
-        // }
-        // if (filterBy.isInStock !== 'ALL') {
-        //     criteria.isInStock = filterBy.isInStock
-        // }
-        // console.log('the cretirea',criteria)
-
         const collection = await dbService.getCollection('board')
-        // console.log('the collection ',collection)
         const boards = await collection.find(criteria).toArray()
         const miniBoards = boards.map((board)=>{
             return {title:board.title,_id:board._id}

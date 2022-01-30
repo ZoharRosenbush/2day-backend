@@ -11,38 +11,19 @@ async function login(username, password) {
     // TODO: un-comment for real login
     const match = await bcrypt.compare(password, user.password)
     if (!match) return Promise.reject('Invalid username or password')
+    
 
     delete user.password
     return user
 }
 
-async function signup(username, password, fullname) {
+async function signup(username, password, fullname,userColor,acronyms) {
     const saltRounds = 10
 
     logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
     if (!username || !password || !fullname) return Promise.reject('fullname, username and password are required!')
     const hash = await bcrypt.hash(password, saltRounds)
-    return userService.add({ username, password: hash, fullname, userColor: getNiceRandomColor() })
-}
-
-function getNiceRandomColor() {
-    let red = "#E2445C";
-    let orange = "#FDAB3D";
-    let green = "#00C875";
-    let blue = "#0073ea";
-    let pink = "#FAA1F1";
-    let darkblue = "#292f4c";
-
-    let niceColors = [darkblue, pink, blue, green, orange, red];
-    let drawnNum = _getRandomIntInclusive(0, niceColors.length - 1);
-    let randColor = niceColors[drawnNum];
-    return randColor;
-}
-
-function _getRandomIntInclusive(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive
+    return userService.add({ username, password: hash, fullname, userColor,acronyms })
 }
 
 module.exports = {
