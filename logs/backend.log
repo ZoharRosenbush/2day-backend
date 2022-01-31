@@ -428,6 +428,7 @@
 1/30/2022, 8:27:07 PM - DEBUG - auth.route - new account created: {"username":"Anna","password":"$2b$10$6YNXY8ffYp5uQImVlYhQh.YvIcWugKY0ivWN6.czIUyLKTmsLr4qa","fullname":"Anna Bla","userColor":"#292f4c","acronyms":"AB","_id":"61f6d87b8d515c6dd769d870"}
 1/30/2022, 8:27:07 PM - DEBUG - auth.service - login with username: Anna
 1/30/2022, 8:29:40 PM - DEBUG - auth.service - login with username: Anna
+<<<<<<< HEAD
 30.1.2022, 20:42:35 - INFO - Server is running on port: 3030
 30.1.2022, 20:43:34 - DEBUG - auth.service - signup with username: tomer, fullname: Tomer Ganzi
 30.1.2022, 20:43:34 - DEBUG - auth.route - new account created: {"username":"tomer","password":"$2b$10$p7VnPR6FDhihgVK4l9xBZOFHLAUICaGxT7Ac6wPchThL417MzHrF.","fullname":"Tomer Ganzi","userColor":"#E2445C","acronyms":"TG","_id":"61f6dc5618e0af2e9c8f66c3"}
@@ -442,3 +443,47 @@
 31.1.2022, 8:44:24 - DEBUG - auth.route - new account created: {"username":"mayelgarat","password":"$2b$10$md3xgd/Islo8jew4HKE2Z.5dwB79xhk6LI9n7qiCxVgv5H/xbHuBW","fullname":"May Elgarat","userColor":"#00C875","acronyms":"ME","_id":"61f78548f944533ca0d1102b"}
 31.1.2022, 8:44:24 - DEBUG - auth.service - login with username: mayelgarat
 31.1.2022, 12:28:46 - DEBUG - auth.service - login with username: mayelgarat
+=======
+30.1.2022, 20:49:47 - INFO - Server is running on port: 3030
+30.1.2022, 20:55:29 - DEBUG - auth.service - login with username: l l
+30.1.2022, 20:55:29 - ERROR - Failed to Login Invalid username or password
+30.1.2022, 20:55:31 - DEBUG - auth.service - login with username: l l
+30.1.2022, 20:55:31 - ERROR - Failed to Login Invalid username or password
+30.1.2022, 20:55:37 - DEBUG - auth.service - signup with username: l, fullname: l l
+30.1.2022, 20:55:37 - DEBUG - auth.route - new account created: {"username":"l","password":"$2b$10$vmM1HADzZNR.UoZ/v3CLJurNscDBvTrqYhKBS7CyB8NPAC66x/dwO","fullname":"l l","userColor":"#00C875","acronyms":"LL","_id":"61f6df2955a575a794b252e2"}
+30.1.2022, 20:55:37 - DEBUG - auth.service - login with username: l
+30.1.2022, 20:56:25 - DEBUG - auth.service - signup with username: m, fullname: mm mm
+30.1.2022, 20:56:26 - DEBUG - auth.route - new account created: {"username":"m","password":"$2b$10$IuOWGA8aKPrkMh5dB6c1auXj9ifsy07CLpS4MMb2oqv6T7RB4s8P.","fullname":"mm mm","userColor":"#FDAB3D","acronyms":"MM","_id":"61f6df5a55a575a794b252e3"}
+30.1.2022, 20:56:26 - DEBUG - auth.service - login with username: m
+30.1.2022, 20:56:48 - DEBUG - auth.service - signup with username: a, fullname: b b
+30.1.2022, 20:56:49 - DEBUG - auth.route - new account created: {"username":"a","password":"$2b$10$5PRGkXB..arzLq/2XYhyO.bUdCLn0/N/BLt0BMgMQPtLkWIW9/UCe","fullname":"b b","userColor":"#0073ea","acronyms":"BB","_id":"61f6df7055a575a794b252e4"}
+30.1.2022, 20:56:49 - DEBUG - auth.service - login with username: a
+30.1.2022, 20:56:49 - ERROR - Failed to signup Invalid username or password
+30.1.2022, 20:57:29 - DEBUG - auth.service - signup with username: t, fullname: t t
+30.1.2022, 20:57:30 - DEBUG - auth.route - new account created: {"username":"t","password":"$2b$10$o.L4WO2GvOHyseqNN1Mgb.wZULfienvlP80LNsm0njDkYTFWglcua","fullname":"t t","userColor":"#292f4c","acronyms":"TT","_id":"61f6df9a55a575a794b252e5"}
+30.1.2022, 20:57:30 - DEBUG - auth.service - login with username: t
+30.1.2022, 20:57:54 - DEBUG - auth.service - signup with username: g, fullname: g i
+30.1.2022, 20:57:55 - DEBUG - auth.route - new account created: {"username":"g","password":"$2b$10$WLShSo2rRFdc96RLsFPCPOD2oGY4Isq/gNvJgrwD07sO2er27lsra","fullname":"g i","userColor":"#FDAB3D","acronyms":"GI","_id":"61f6dfb255a575a794b252e6"}
+30.1.2022, 20:57:55 - DEBUG - auth.service - login with username: g
+30.1.2022, 20:58:35 - DEBUG - auth.service - signup with username: p, fullname: p po
+30.1.2022, 20:58:36 - DEBUG - auth.route - new account created: {"username":"p","password":"$2b$10$2s78n2Cq.tcvkTUn8jdO8eJRnlMOh6QCXcrZ6qZTGlnLx9ZJkmf2.","fullname":"p po","userColor":"#00C875","acronyms":"PP","_id":"61f6dfdc55a575a794b252e7"}
+30.1.2022, 20:58:36 - DEBUG - auth.service - login with username: p
+30.1.2022, 21:01:33 - DEBUG - auth.service - signup with username: mayyy, fullname: may elgarat
+30.1.2022, 21:01:34 - DEBUG - auth.route - new account created: {"username":"mayyy","password":"$2b$10$kcPSQqvUvTJdkjlHIQfYtu90hhtBjUNdmDZu163uecC6nGUKCxzlC","fullname":"may elgarat","userColor":"#E2445C","acronyms":"ME","_id":"61f6e08e55a575a794b252e8"}
+30.1.2022, 21:01:34 - DEBUG - auth.service - login with username: mayyy
+31.1.2022, 9:27:00 - DEBUG - auth.service - signup with username: segalee, fullname: lee segal
+31.1.2022, 9:27:02 - DEBUG - auth.route - new account created: {"username":"segalee","password":"$2b$10$myWlC6HCMH2RbJ2O/tBKTO7hVakDV2guaUQsBAHd2B52xJVzdv3ri","fullname":"lee segal","userColor":"#00C875","acronyms":"LS","_id":"61f78f4455a575a794b252e9"}
+31.1.2022, 9:27:02 - DEBUG - auth.service - login with username: segalee
+31.1.2022, 12:55:42 - DEBUG - auth.service - login with username: segalee
+31.1.2022, 12:55:43 - ERROR - Failed to Login Invalid username or password
+31.1.2022, 12:55:46 - DEBUG - auth.service - login with username: segalee
+31.1.2022, 12:55:46 - ERROR - Failed to Login Invalid username or password
+31.1.2022, 12:55:47 - DEBUG - auth.service - login with username: segalee
+31.1.2022, 12:55:48 - ERROR - Failed to Login Invalid username or password
+31.1.2022, 12:55:52 - DEBUG - auth.service - login with username: segalee
+31.1.2022, 15:22:14 - INFO - Server is running on port: 3030
+31.1.2022, 16:24:24 - INFO - Server is running on port: 3030
+31.1.2022, 16:26:43 - INFO - Server is running on port: 3030
+31.1.2022, 16:26:56 - INFO - Server is running on port: 3030
+31.1.2022, 16:26:59 - INFO - Server is running on port: 3030
+>>>>>>> b98e25875526bb5c09fbb52332a16dd0b6084fa4
