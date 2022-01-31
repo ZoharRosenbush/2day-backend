@@ -72,7 +72,7 @@ async function removeBoard(req, res) {
 }
 
 async function updateBoardGroup(req, res) {
-  console.log(req.params.id);
+  // console.log(req.params.id);
   // const boardId = req.params.id;
   // console.log('the board id in server add',boardId)
   // const board = await boardService.getById(boardId)
