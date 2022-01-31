@@ -17,7 +17,9 @@ const session = expressSession({
 })
 
 // Express App Configurations
-app.use(express.json())
+// json deafult size is 100k -> We chose to use the 1mb limit following this post on stackoverflow 
+//https://stackoverflow.com/questions/19917401/error-request-entity-too-large
+app.use(express.json({ limit: '1mb' }));
 app.use(cookieParser())
 app.use(session)
 // app.use(cors())
@@ -30,7 +32,7 @@ if (process.env.NODE_ENV === 'production') {
     // Configuring CORS
     const corsOptions = {
         // Make sure origin contains the url your frontend is running on
-        origin: ['http://127.0.0.1:8080', 'http://localhost:8080','http://localhost:3030', 'http://127.0.0.1:3000', 'http://localhost:3000'],
+        origin: ['http://127.0.0.1:8080', 'http://localhost:8080', 'http://localhost:3030', 'http://127.0.0.1:3000', 'http://localhost:3000'],
         credentials: true
     }
     app.use(cors(corsOptions))
@@ -40,7 +42,7 @@ const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const boardRoutes = require('./api/board/board.routes')
 
-const {connectSockets} = require('./services/socket.service')
+const { connectSockets } = require('./services/socket.service')
 
 
 // routes
