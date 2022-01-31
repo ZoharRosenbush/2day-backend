@@ -428,3 +428,18 @@
 1/30/2022, 8:27:07 PM - DEBUG - auth.route - new account created: {"username":"Anna","password":"$2b$10$6YNXY8ffYp5uQImVlYhQh.YvIcWugKY0ivWN6.czIUyLKTmsLr4qa","fullname":"Anna Bla","userColor":"#292f4c","acronyms":"AB","_id":"61f6d87b8d515c6dd769d870"}
 1/30/2022, 8:27:07 PM - DEBUG - auth.service - login with username: Anna
 1/30/2022, 8:29:40 PM - DEBUG - auth.service - login with username: Anna
+1/30/2022, 8:35:09 PM - INFO - Server is running on port: 3030
+1/30/2022, 9:32:48 PM - DEBUG - auth.service - signup with username: Zohar, fullname: Zohar Rosenbush
+1/30/2022, 9:32:49 PM - DEBUG - auth.route - new account created: {"username":"Zohar","password":"$2b$10$6svXkvup.DoPrqO.jjEZVOB0NlATvJH81CsqINxSi/ybUhTWA6Gpq","fullname":"Zohar Rosenbush","userColor":"#E2445C","acronyms":"ZR","_id":"61f6e7e1a5b81e6fceb111b8"}
+1/30/2022, 9:32:49 PM - DEBUG - auth.service - login with username: Zohar
+1/30/2022, 9:34:01 PM - DEBUG - auth.service - signup with username: Zohar, fullname: Zohar Rosenbush
+1/30/2022, 9:34:01 PM - DEBUG - auth.route - new account created: {"username":"Zohar","password":"$2b$10$bJjq8TFZJl76KWL.97SgiOKO5o1024UktF5T8btUl6PS5kjAKuTh.","fullname":"Zohar Rosenbush","userColor":"#00C875","acronyms":"ZR","_id":"61f6e829a5b81e6fceb111b9"}
+1/30/2022, 9:34:01 PM - DEBUG - auth.service - login with username: Zohar
+1/31/2022, 7:26:50 AM - INFO - Server is running on port: 3030
+1/31/2022, 12:09:08 PM - DEBUG - auth.service - login with username: Zohar
+1/31/2022, 1:00:50 PM - INFO - Server is running on port: 3030
+1/31/2022, 3:00:28 PM - DEBUG - auth.service - login with username: Zohar
+1/31/2022, 3:07:21 PM - INFO - Server is running on port: 3030
+1/31/2022, 3:07:41 PM - DEBUG - auth.service - login with username: Zohar
+1/31/2022, 3:28:38 PM - INFO - Server is running on port: 3030
+1/31/2022, 3:38:48 PM - INFO - Server is running on port: 3030
