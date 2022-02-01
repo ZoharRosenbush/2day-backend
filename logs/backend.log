@@ -504,7 +504,15 @@
 31.1.2022, 16:26:43 - INFO - Server is running on port: 3030
 31.1.2022, 16:26:56 - INFO - Server is running on port: 3030
 31.1.2022, 16:26:59 - INFO - Server is running on port: 3030
+<<<<<<< HEAD
+31.1.2022, 16:39:37 - INFO - Server is running on port: 3030
+31.1.2022, 23:08:33 - DEBUG - auth.service - login with username: segalee
+31.1.2022, 23:11:24 - DEBUG - auth.service - login with username: Zohar
+=======
 >>>>>>> b98e25875526bb5c09fbb52332a16dd0b6084fa4
+<<<<<<< HEAD
+31.1.2022, 16:31:27 - INFO - Server is running on port: 3030
+=======
 <<<<<<< HEAD
 1/31/2022, 4:29:44 PM - INFO - Server is running on port: 3030
 1/31/2022, 4:52:50 PM - DEBUG - auth.service - signup with username: HR, fullname: H R
@@ -515,7 +523,15 @@
 1/31/2022, 10:50:41 PM - INFO - Server is running on port: 3030
 =======
 >>>>>>> 2d7f521586f6c1aaba9baa20ed06862ba5c755d7
+<<<<<<< HEAD
 1/31/2022, 11:04:39 PM - INFO - Server is running on port: 3030
 1/31/2022, 11:07:21 PM - DEBUG - auth.service - login with username: Zohar 
 1/31/2022, 11:07:21 PM - ERROR - Failed to Login Invalid username or password
 1/31/2022, 11:07:48 PM - DEBUG - auth.service - login with username: Zohar
+=======
+>>>>>>> 7b1a63562461ceb83b1f32ce310f7ef0119e67c8
+31.1.2022, 22:52:07 - INFO - Server is running on port: 3030
+31.1.2022, 23:04:54 - DEBUG - auth.service - login with username: mayelgarat
+31.1.2022, 23:06:22 - INFO - Server is running on port: 3030
+>>>>>>> 8509dc79717313ca06df7334128612e41bfec19d
+>>>>>>> d97019af6b1e5cb7fe0e8c669bcebbd3c5980dc9
