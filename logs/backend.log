@@ -428,6 +428,40 @@
 1/30/2022, 8:27:07 PM - DEBUG - auth.route - new account created: {"username":"Anna","password":"$2b$10$6YNXY8ffYp5uQImVlYhQh.YvIcWugKY0ivWN6.czIUyLKTmsLr4qa","fullname":"Anna Bla","userColor":"#292f4c","acronyms":"AB","_id":"61f6d87b8d515c6dd769d870"}
 1/30/2022, 8:27:07 PM - DEBUG - auth.service - login with username: Anna
 1/30/2022, 8:29:40 PM - DEBUG - auth.service - login with username: Anna
+<<<<<<< HEAD
+<<<<<<< HEAD
+1/30/2022, 8:35:09 PM - INFO - Server is running on port: 3030
+1/30/2022, 9:32:48 PM - DEBUG - auth.service - signup with username: Zohar, fullname: Zohar Rosenbush
+1/30/2022, 9:32:49 PM - DEBUG - auth.route - new account created: {"username":"Zohar","password":"$2b$10$6svXkvup.DoPrqO.jjEZVOB0NlATvJH81CsqINxSi/ybUhTWA6Gpq","fullname":"Zohar Rosenbush","userColor":"#E2445C","acronyms":"ZR","_id":"61f6e7e1a5b81e6fceb111b8"}
+1/30/2022, 9:32:49 PM - DEBUG - auth.service - login with username: Zohar
+1/30/2022, 9:34:01 PM - DEBUG - auth.service - signup with username: Zohar, fullname: Zohar Rosenbush
+1/30/2022, 9:34:01 PM - DEBUG - auth.route - new account created: {"username":"Zohar","password":"$2b$10$bJjq8TFZJl76KWL.97SgiOKO5o1024UktF5T8btUl6PS5kjAKuTh.","fullname":"Zohar Rosenbush","userColor":"#00C875","acronyms":"ZR","_id":"61f6e829a5b81e6fceb111b9"}
+1/30/2022, 9:34:01 PM - DEBUG - auth.service - login with username: Zohar
+1/31/2022, 7:26:50 AM - INFO - Server is running on port: 3030
+1/31/2022, 12:09:08 PM - DEBUG - auth.service - login with username: Zohar
+1/31/2022, 1:00:50 PM - INFO - Server is running on port: 3030
+1/31/2022, 3:00:28 PM - DEBUG - auth.service - login with username: Zohar
+1/31/2022, 3:07:21 PM - INFO - Server is running on port: 3030
+1/31/2022, 3:07:41 PM - DEBUG - auth.service - login with username: Zohar
+1/31/2022, 3:28:38 PM - INFO - Server is running on port: 3030
+1/31/2022, 3:38:48 PM - INFO - Server is running on port: 3030
+=======
+30.1.2022, 20:42:35 - INFO - Server is running on port: 3030
+30.1.2022, 20:43:34 - DEBUG - auth.service - signup with username: tomer, fullname: Tomer Ganzi
+30.1.2022, 20:43:34 - DEBUG - auth.route - new account created: {"username":"tomer","password":"$2b$10$p7VnPR6FDhihgVK4l9xBZOFHLAUICaGxT7Ac6wPchThL417MzHrF.","fullname":"Tomer Ganzi","userColor":"#E2445C","acronyms":"TG","_id":"61f6dc5618e0af2e9c8f66c3"}
+30.1.2022, 20:43:34 - DEBUG - auth.service - login with username: tomer
+30.1.2022, 20:43:47 - DEBUG - auth.service - login with username: tomer
+31.1.2022, 8:37:43 - INFO - Server is running on port: 3030
+31.1.2022, 8:44:12 - DEBUG - auth.service - login with username: mayy
+31.1.2022, 8:44:12 - ERROR - Failed to Login Invalid username or password
+31.1.2022, 8:44:13 - DEBUG - auth.service - login with username: mayy
+31.1.2022, 8:44:13 - ERROR - Failed to Login Invalid username or password
+31.1.2022, 8:44:24 - DEBUG - auth.service - signup with username: mayelgarat, fullname: May Elgarat
+31.1.2022, 8:44:24 - DEBUG - auth.route - new account created: {"username":"mayelgarat","password":"$2b$10$md3xgd/Islo8jew4HKE2Z.5dwB79xhk6LI9n7qiCxVgv5H/xbHuBW","fullname":"May Elgarat","userColor":"#00C875","acronyms":"ME","_id":"61f78548f944533ca0d1102b"}
+31.1.2022, 8:44:24 - DEBUG - auth.service - login with username: mayelgarat
+31.1.2022, 12:28:46 - DEBUG - auth.service - login with username: mayelgarat
+>>>>>>> 2d7f521586f6c1aaba9baa20ed06862ba5c755d7
+=======
 30.1.2022, 20:49:47 - INFO - Server is running on port: 3030
 30.1.2022, 20:55:29 - DEBUG - auth.service - login with username: l l
 30.1.2022, 20:55:29 - ERROR - Failed to Login Invalid username or password
@@ -470,6 +504,27 @@
 31.1.2022, 16:26:43 - INFO - Server is running on port: 3030
 31.1.2022, 16:26:56 - INFO - Server is running on port: 3030
 31.1.2022, 16:26:59 - INFO - Server is running on port: 3030
+<<<<<<< HEAD
 31.1.2022, 16:39:37 - INFO - Server is running on port: 3030
 31.1.2022, 23:08:33 - DEBUG - auth.service - login with username: segalee
 31.1.2022, 23:11:24 - DEBUG - auth.service - login with username: Zohar
+=======
+>>>>>>> b98e25875526bb5c09fbb52332a16dd0b6084fa4
+<<<<<<< HEAD
+31.1.2022, 16:31:27 - INFO - Server is running on port: 3030
+=======
+<<<<<<< HEAD
+1/31/2022, 4:29:44 PM - INFO - Server is running on port: 3030
+1/31/2022, 4:52:50 PM - DEBUG - auth.service - signup with username: HR, fullname: H R
+1/31/2022, 4:52:50 PM - DEBUG - auth.route - new account created: {"username":"HR","password":"$2b$10$h78iLWdj6IDUmClcArvPr.2zOEonDo862.Why.pRnkBvBDAqMhqIK","fullname":"H R","userColor":"#0073ea","acronyms":"HR","_id":"61f7f7c28cfebe111e6adc2f"}
+1/31/2022, 4:52:50 PM - DEBUG - auth.service - login with username: HR
+1/31/2022, 6:13:31 PM - INFO - Server is running on port: 3030
+1/31/2022, 7:19:20 PM - INFO - Server is running on port: 3030
+1/31/2022, 10:50:41 PM - INFO - Server is running on port: 3030
+=======
+>>>>>>> 2d7f521586f6c1aaba9baa20ed06862ba5c755d7
+>>>>>>> 7b1a63562461ceb83b1f32ce310f7ef0119e67c8
+31.1.2022, 22:52:07 - INFO - Server is running on port: 3030
+31.1.2022, 23:04:54 - DEBUG - auth.service - login with username: mayelgarat
+31.1.2022, 23:06:22 - INFO - Server is running on port: 3030
+>>>>>>> 8509dc79717313ca06df7334128612e41bfec19d
