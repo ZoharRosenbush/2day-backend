@@ -48,9 +48,8 @@ async function addBoard(req, res) {
 async function updateBoard(req, res) {
   try {
     const board = req.body;
-    console.log('req body', board)
     await boardService.update(board)
-    console.log('Updated board succesfuly');
+    // console.log('Updated board succesfuly');
     res.json(board)
   } catch (err) {
     logger.error('Failed to update board', err)
@@ -81,7 +80,7 @@ async function updateBoardGroup(req, res) {
   const groupIdx = board.groups.findIndex(
     (group) => groupToSave.id === group.id
   );
-  console.log('the groupIdx', groupIdx);
+  // console.log('the groupIdx', groupIdx);
 
   if (groupIdx === -1) {
     board.groups.unshift(newGroup);
